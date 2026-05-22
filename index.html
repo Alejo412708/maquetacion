@@ -1,41 +1,110 @@
-<!-- TABLA MEJORADA -->
+<!DOCTYPE html>
+<html lang="es">
 
-<section class="tabla-productos">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Rápidas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
 
-    <h2>Tabla de Productos</h2>
+<body>
 
-    <table border="1">
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>VENTA DE COMIDAS RÁPIDAS</h1>
+    </header>
 
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Descripción</th>
-                <th>Precio</th>
-            </tr>
-        </thead>
+    <!-- MENÚ FLEXBOX -->
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Promociones</a>
+        <a href="#">Contacto</a>
+    </nav>
 
-        <tbody>
+    <!-- TABLA -->
+    <section class="tabla-productos">
 
-            <tr>
-                <td>Perro Caliente</td>
-                <td>Pan, salchicha, queso y salsas</td>
-                <td>$12.000</td>
-            </tr>
+        <h2>Tabla de Productos</h2>
 
-            <tr>
-                <td>Hamburguesa</td>
-                <td>Carne, queso, vegetales y papas</td>
-                <td>$18.000</td>
-            </tr>
+        <table border="1">
 
-            <tr>
-                <td>Gaseosa</td>
-                <td>Bebida fría personal</td>
-                <td>$5.000</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
 
-        </tbody>
+            <tbody>
 
-    </table>
+                <tr>
+                    <td>Perro Caliente</td>
+                    <td>Pan, salchicha, queso y salsas</td>
+                    <td>$12.000</td>
+                </tr>
 
-</section>
+                <tr>
+                    <td>Hamburguesa</td>
+                    <td>Carne, queso, vegetales y papas</td>
+                    <td>$18.000</td>
+                </tr>
+
+                <tr>
+                    <td>Gaseosa</td>
+                    <td>Bebida fría personal</td>
+                    <td>$5.000</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- GALERÍA GRID -->
+    <section class="galeria-section">
+
+        <h2>Galería de Comidas</h2>
+
+        <div class="galeria">
+
+            <!-- CARD 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=400"
+                    alt="Perro caliente">
+
+                <h3>Perro Caliente</h3>
+
+                <button>Comprar</button>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=400"
+                    alt="Hamburguesa">
+
+                <h3>Hamburguesa</h3>
+
+                <button>Comprar</button>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400"
+                    alt="Gaseosa">
+
+                <h3>Gaseosa</h3>
+
+                <button>Comprar</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
