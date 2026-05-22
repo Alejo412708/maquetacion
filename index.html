@@ -9,12 +9,12 @@
 
 <body>
 
-    <!-- TÍTULO -->
+    <!-- ENCABEZADO -->
     <header>
         <h1>VENTA DE COMIDAS RÁPIDAS</h1>
     </header>
 
-    <!-- MENÚ HORIZONTAL FLEXBOX -->
+    <!-- MENÚ FLEXBOX -->
     <nav class="menu">
         <a href="#">Inicio</a>
         <a href="#">Menú</a>
@@ -23,57 +23,81 @@
     </nav>
 
     <!-- TABLA -->
-    <section class="tabla">
+    <section class="tabla-productos">
+
         <h2>Tabla de Productos</h2>
 
         <table>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
 
-            <tr>
-                <td>Perro Caliente</td>
-                <td>$12.000</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>Perro Caliente</td>
+                    <td>Pan, salchicha, queso y salsas</td>
+                    <td>$12.000</td>
+                </tr>
 
-            <tr>
-                <td>Hamburguesa</td>
-                <td>$18.000</td>
-            </tr>
+                <tr>
+                    <td>Hamburguesa</td>
+                    <td>Carne, queso, vegetales y papas</td>
+                    <td>$18.000</td>
+                </tr>
 
-            <tr>
-                <td>Gaseosa</td>
-                <td>$5.000</td>
-            </tr>
+                <tr>
+                    <td>Gaseosa</td>
+                    <td>Bebida fría personal</td>
+                    <td>$5.000</td>
+                </tr>
+            </tbody>
         </table>
+
     </section>
 
     <!-- GALERÍA GRID -->
-    <section>
+    <section class="galeria-section">
+
         <h2>Galería de Comidas</h2>
 
         <div class="galeria">
 
+            <!-- CARD 1 -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Hamburguesa">
-                <h3>Hamburguesa</h3>
-                <button>Comprar</button>
-            </div>
+                <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?w=400"
+                    alt="Perro caliente">
 
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a" alt="Perro caliente">
                 <h3>Perro Caliente</h3>
+
                 <button>Comprar</button>
             </div>
 
+            <!-- CARD 2 -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97" alt="Gaseosa">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=400"
+                    alt="Hamburguesa">
+
+                <h3>Hamburguesa</h3>
+
+                <button>Comprar</button>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400"
+                    alt="Gaseosa">
+
                 <h3>Gaseosa</h3>
+
                 <button>Comprar</button>
             </div>
 
         </div>
+
     </section>
 
 </body>
